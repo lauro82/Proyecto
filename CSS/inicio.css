@@ -72,7 +72,7 @@
   /* Fake image, just for this example */
   .fakeimg {
     background-color: rgb(184, 212, 132);
-    width: 95%;
+    width: 100%;
     padding: 20px;
   }
   
