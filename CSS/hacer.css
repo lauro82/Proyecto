@@ -1,0 +1,12 @@
+header{
+    padding: 10px;
+    background-color: gold;
+    color: white;
+    text-align: center;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
