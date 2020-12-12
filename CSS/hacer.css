@@ -4,9 +4,20 @@ header{
     color: white;
     text-align: center;
 }
-.navbar a {
-    color: white;
+.navbar {
+    display: flex;
+    background-color: rgb(67, 103, 112);
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: rgb(221, 224, 30);
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
   }
+  
