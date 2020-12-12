@@ -21,7 +21,11 @@ header{
     text-align: center;
   }
 
-  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(162, 182, 184);
+  }
   @media screen and (max-width: 700px) {
     .row, .navbar {   
       flex-direction: column;
