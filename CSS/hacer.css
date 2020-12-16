@@ -1,7 +1,11 @@
 
+body {
+  font-family: Arial;
+  margin: 0;
+}
 
 header{
-    padding: 10px;
+    padding: 2px;
     background-color: gold;
     color: white;
     text-align: center;
@@ -14,19 +18,40 @@ header{
     top:0;
     
   }
-  
-  /* Style the navigation bar links */
+
   .navbar a {
     color: rgb(221, 224, 30);
-    padding: 14px 20px;
-    text-decoration: none;
+    padding: 10px 20px;
+    text-decoration: none
     text-align: center;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    
+    flex: 20%;
+    background-color: #8eb4c5;
+    padding: 0px;  
+  
+  }
+  .main {
+    flex: 75%;
+    background-color: white;
+    padding: 10px;
   }
 
   .footer {
-    padding: 20px;
+    padding: 2px;
     text-align: center;
-    background: rgb(162, 182, 184);
+    background: rgb(156, 173, 175);
   }
 
   @media screen and (max-width: 700px) {
