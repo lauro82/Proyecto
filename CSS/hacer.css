@@ -43,7 +43,7 @@ header{
   
   }
   .main {
-    flex: 75%;
+    flex: 80%;
     background-color: white;
     padding: 10px;
   }
