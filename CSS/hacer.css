@@ -22,7 +22,7 @@ header{
   .navbar a {
     color: rgb(221, 224, 30);
     padding: 10px 20px;
-    text-decoration: none
+    text-decoration: none;
     text-align: center;
   }
   .navbar a:hover {
