@@ -41,8 +41,9 @@ header{
   .side {
     
     flex: 20%;
-    background-color: #8eb4c5;
-    padding: 20px;  
+    /* background-color: #8eb4c5; */
+    padding: 0px;  
+    image-rendering: auto;
   
   }
   .main {
@@ -52,7 +53,7 @@ header{
   }
 
   .footer {
-    padding: 2px;
+    padding: 20px;
     text-align: center;
     background: rgb(156, 173, 175);
   }
