@@ -50,6 +50,7 @@ header{
     flex: 75%;
     background-color: white;
     padding: 20px;
+    text-align: justify;
   }
 
   .footer {
