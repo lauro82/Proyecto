@@ -40,14 +40,14 @@ header{
   
   .side {
     
-    flex: 20%;
-    /* background-color: #8eb4c5; */
-    padding: 0px;  
-    image-rendering: auto;
-  
+    flex: 20%; 
+    padding: 0px;   
+    image-rendering: auto;   
+
   }
+
   .main {
-    flex: 80%;
+    flex: 75%;
     background-color: white;
     padding: 20px;
   }
